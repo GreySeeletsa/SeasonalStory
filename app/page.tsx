@@ -54,7 +54,7 @@ export default function WeatherApp() {
     <div className={`min-h-screen p-8 ${darkMode ? 'dark' : ''}`}>
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-primary">SeasonalStory</h1>
+          <h1 className="text-4xl font-bold text-primary">Seasonal Story</h1>
           <Button onClick={toggleDarkMode} variant="outline" size="icon">
             {darkMode ? <Sun className="h-[1.2rem] w-[1.2rem]" /> : <Moon className="h-[1.2rem] w-[1.2rem]" />}
           </Button>
